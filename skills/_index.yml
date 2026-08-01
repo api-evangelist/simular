@@ -1,0 +1,11 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.simular.ai/simulang/simulang-claude-code
+skills:
+  - file: simular-simulang-claude-code.md
+    name: Simulang for Claude Code
+    description: >-
+      Provider-published Claude Code skill (/simulang) for natural-language
+      macOS desktop automation via the Simulang CLI and simulang-js API.
+    api: cli/simular-cli.yml
+    operations: [simulang run, simulang init-claude]

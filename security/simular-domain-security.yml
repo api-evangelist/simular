@@ -1,0 +1,17 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml hosts
+hosts:
+- host: simular.ai
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 11 23:30:11 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+domains:
+- domain: simular.ai
+  dnssec: true
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none

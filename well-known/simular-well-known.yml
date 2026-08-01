@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: probed /.well-known/ on Simular hosts
+hosts:
+  - host: https://simular.ai
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+  - host: https://docs.simular.ai
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+notes: >-
+  No /.well-known/ discovery documents are published on either host as of the
+  probe date. Simular ships SDKs/CLI and a desktop agent rather than a hosted
+  HTTP API, so there is no OAuth/OIDC discovery surface.

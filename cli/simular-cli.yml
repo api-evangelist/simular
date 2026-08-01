@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.simular.ai/simulang/simulang-claude-code
+name: Simulang CLI
+binary: simulang
+package: "@simular-ai/simulang"
+description: >-
+  Command-line runner for Simulang desktop-automation scripts. Runs .simulang /
+  TypeScript scripts on Node with the full @simular-ai/simulang-js capability
+  surface (browser use, forms, screenshots, accessibility tree). Also installs
+  the /simulang Claude Code skill for natural-language macOS automation.
+install:
+  - method: npm
+    command: npm install -g @simular-ai/simulang
+requirements:
+  - Node.js >= 22.18
+  - "macOS: Accessibility and Screen Recording permissions"
+commands:
+  - command: simulang run
+    description: Run a Simulang / TypeScript automation script.
+  - command: simulang init-claude
+    description: Install the /simulang Claude Code skill into the current environment.
+  - command: simulang --version
+    description: Print the installed Simulang version.
+notes: >-
+  Optional visual debugging via @simular-ai/simulang-log-viewer. Grounding-model
+  element finding uses an OPENROUTER_API_KEY environment variable.

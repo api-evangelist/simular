@@ -1,0 +1,41 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/simular-ai
+packages:
+  - language: python
+    registry: pypi
+    name: pysimular
+    url: https://pypi.org/project/pysimular/
+    install: pip install pysimular
+    version: 0.1.2
+    license: Apache-2.0
+    repo: https://github.com/simular-ai/pysimular
+    description: Python API client for Simular agents (currently supports SimularBrowser as backend).
+    official: true
+  - language: python
+    registry: pypi
+    name: gui-agents
+    url: https://pypi.org/project/gui-agents/
+    install: pip install gui-agents
+    version: 0.3.2
+    repo: https://github.com/simular-ai/Agent-S
+    description: Agent-S — a library for creating general purpose GUI agents using multimodal LLMs.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@simular-ai/simulang"
+    url: https://www.npmjs.com/package/@simular-ai/simulang
+    install: npm install -g @simular-ai/simulang
+    version: 6.0.0
+    license: MIT
+    description: Simulang CLI — run Simulang scripts (.simulang) on Node with full @simular-ai/simulang-js capability.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@simular-ai/simulang-js"
+    url: https://www.npmjs.com/package/@simular-ai/simulang-js
+    install: npm install @simular-ai/simulang-js
+    version: 10.1.0
+    license: MIT
+    description: Node.js bindings for simulang-rs — the Simulang desktop-automation runtime.
+    official: true

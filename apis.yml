@@ -1,7 +1,27 @@
 aid: simular
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simular.png
 name: Simular
-description: Simular is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Simular is the autonomous computer company. It builds AI agents that operate
+  computers the way people do — clicking, typing, scrolling, and navigating
+  GUIs, APIs, terminals, and code. Its flagship product Sai is a 24/7 AI
+  co-worker that runs on private cloud desktops, and it maintains the
+  open-source Agent-S agentic framework, the OpenACI agent-computer interface,
+  and Simulang, a desktop-automation scripting language with Python (pysimular),
+  Node.js (@simular-ai/simulang-js), and CLI (@simular-ai/simulang) surfaces.
+  Developers integrate Simular through these SDKs and a Claude Code /simulang
+  skill rather than a hosted HTTP API. Simular is backed by Felicis.
 url: https://raw.githubusercontent.com/api-evangelist/simular/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Computer Use
+- Browser Automation
+- Desktop Automation
+- Agentic
+- SDK
+- Developer Tools
+- Open Source
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,44 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/simular-domain-security.yml
 - type: Website
   url: https://simular.ai
+- type: DeveloperPortal
+  url: https://docs.simular.ai/
+- type: Documentation
+  url: https://docs.simular.ai/
+- type: APIReference
+  url: https://docs.simular.ai/simulang-js/api/latest/
+- type: GettingStarted
+  url: https://docs.simular.ai/agent-s/quickstart
+- type: Blog
+  url: https://simular.ai/blog
+- type: GitHubOrganization
+  url: https://github.com/simular-ai
+- type: Support
+  url: https://discord.gg/E2XfsK9fPV
+- type: Pricing
+  url: https://simular.ai/pricing
+- type: SignUp
+  url: https://sai.simular.ai
+- type: PrivacyPolicy
+  url: https://simular.ai/product-sai/privacy
+- type: Packages
+  url: packages/simular-packages.yml
+- type: SDKs
+  url: packages/simular-packages.yml
+- type: CLI
+  url: cli/simular-cli.yml
+- type: LLMsTxt
+  url: llms/simular-llms.txt
+- type: AgentSkill
+  url: skills/_index.yml
+- type: WellKnown
+  url: well-known/simular-well-known.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1
