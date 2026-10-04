@@ -50,10 +50,9 @@ tags:
 - Computer Use
 - Browser Automation
 - Desktop Automation
-- Agentic
 - SDK
 - Developer Tools
-- Open-Source
+- Open Source
 tags_raw:
 - Company
 - Artificial Intelligence
@@ -65,6 +64,7 @@ tags_raw:
 - SDK
 - Developer Tools
 - Open Source
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
