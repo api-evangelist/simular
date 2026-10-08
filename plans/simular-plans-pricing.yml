@@ -1,0 +1,51 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.simular.ai/pricing
+sources:
+- https://www.simular.ai/pricing
+- https://simular.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Starter
+published: true
+note: Starter row shows a struck-through $200 next to $50/month. Page states no annual pricing currently.
+plan_count: 4
+currency: USD
+plans:
+- name: Starter
+  price_text: $ 50 /month
+  price: 50
+  currency: USD
+  period: month
+  included_quota: Expanded access to a cloud-based windows computer; Come with generous credits. Buy more
+    anytime; BYOD from Windows, Mac or another device; Community Support
+- name: Premium
+  price_text: $ 200 /month
+  price: 200
+  currency: USD
+  period: month
+  included_quota: Everything in starter; Your always-on Windows or Mac computer; Significantly higher
+    credit allowance per month; Priority Support
+- name: Pro
+  price_text: $ 500 /month
+  price: 500
+  currency: USD
+  period: month
+  included_quota: Everything in Premium; Unlimited usage within fair-use limits; Team workflow sharing;
+    Full API access; Highest-priority support and capacity
+- name: Enterprise
+  price_text: Contact for price
+  period: none
+  included_quota: Everything in Pro; Managed scaling; Dedicated account team; SSO / RBAC / SOC2; Custom
+    integrations; SLA guarantees
+rate_limit_statements:
+- Unlimited usage within fair-use limits
